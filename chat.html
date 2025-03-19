@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZETA AI - Chat</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>ZETA AI Chat</h1>
+        <div class="header-right">
+            <button class="profile-btn">👤</button>
+            <button id="theme-toggle">🌙</button>
+        </div>
+    </header>
+
+    <div class="chat-container">
+        <aside class="menu">
+            <h2>Menu</h2>
+            <ul>
+                <li><a href="index.html">🏠 Home</a></li>
+                <li><a href="chat.html" class="active">💬 Chat</a></li>
+            </ul>
+        </aside>
+
+        <section class="chatbox">
+            <div class="messages" id="chatMessages">
+                <div class="bot-message">
+                    <div class="message-content" style="padding: 1rem;">👋 Hello! How can I help you today?</div>
+                </div>
+            </div>
+
+            <div class="input-box">
+                <input type="text" id="userInput" placeholder="Type your message...">
+                <button id="sendChatBtn">Send</button>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
